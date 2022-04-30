@@ -38,7 +38,7 @@ function createTransactionForm() {
       showError("Missing Information");
       return false;
     }
-    showError("");
+    // showError("");
     return true;
   };
 
@@ -93,6 +93,11 @@ function initTransactions() {
 }
 
 function sendTransaction(isAdding) {
+  let nameEl = document.querySelector("#t-name");
+  let amountEl = document.querySelector("#t-amount");
+  let errorEl = document.querySelector(".form .error");
+  
+  
   if (!transactionForm.validate()) {
     return;
   }
@@ -184,7 +189,7 @@ function populateChart() {
     myChart.destroy();
   }
 
-  const ctx = document.getElementById("myChart").getContext("2d");
+  const ctx = document.getElementById("my-chart").getContext("2d");
 
   myChart = new Chart(ctx, {
     type: "line",
