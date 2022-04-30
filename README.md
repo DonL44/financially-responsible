@@ -76,7 +76,7 @@ A Budget Tracker application that allows users to add expenses and deposits to t
 
 ## Links
 
-* [Github](https://github.com/DonL44/financially-responsible)
+* [Github](https://github.com/DonL44)
 * [Live Heroku App](https://financially-responsible.herokuapp.com/)
 
 ## Features
