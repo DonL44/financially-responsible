@@ -77,6 +77,7 @@ function createTransactionApi() {
 
   const fetchAll = () => {
     return fetch("/api/transaction").then((response) => {
+      console.log("Hello World!");
       return response.json();
     });
   };
