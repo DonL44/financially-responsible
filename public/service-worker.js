@@ -32,6 +32,8 @@ const FILES_TO_CACHE = [
     );
     self.skipWaiting();
   });
+
+  
   // Activate the service worker and remove old data from the cache
   self.addEventListener('activate', function(evt) {
     evt.waitUntil(
