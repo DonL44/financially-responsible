@@ -90,4 +90,4 @@ A Budget Tracker application that allows users to add expenses and deposits to t
 
 ## License
   
-  Licensed under the [MIT](LICENSE) license.
+  Licensed under the [MIT](LICENSE) license..
